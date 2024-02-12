@@ -1,4 +1,4 @@
-- This is assignment 1 of COMP1054 (Interactive Media Design) and the instruction for this assignment is:
+- This is assignment 1 of COMP1054 (Interactive Media Design Using CSS) and the instruction for this assignment is:
   - Select a song that is meaningful to you and obtain the official lyrics.
   - Build a valid, well-structured HTML page for the song lyrics, along with a paragraph about the song and another regarding the artist or the band.
   - Use appropriate sectioning elements to structure the page (like article, section, header, main, footer, aside) and other semantically-meaningful elements to mark up the content (like headings, paragraphs, lists, blockquotes, quotes, etc.).
