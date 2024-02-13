@@ -13,3 +13,6 @@
   - No 3rd-party CSS themes or frameworks are permitted. All CSS and HTML must be your own work.
   - Upload your completed page and all the supporting files to a Web server and provide the URL.
   - Provide the URL to a hosted code repository of your assignment files.
+  
+  - This is the desktop version only.
+  

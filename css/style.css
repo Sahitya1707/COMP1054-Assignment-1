@@ -7,9 +7,10 @@
 }
 main {
   width: 100vw;
-  padding: 0 7rem;
+  padding: 0 0rem;
   /* max-width: 80rem; */
 }
+/* header section starts here */
 .song-name {
   text-align: center;
   text-transform: uppercase;
@@ -18,19 +19,23 @@ main {
 .song-name {
   font-size: 2.5rem;
 }
+/* artcile starts here */
 main article {
-  width: 80%;
-  padding: 0 6rem;
+  width: 90%;
+  padding: 0 4rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
-.song-content p {
+.song-content p,
+.artist-info p {
   margin: 1rem 0;
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.3px;
   line-height: 25px;
 }
-.lyrics-head {
+h2 {
   text-transform: capitalize;
   font-size: 2rem;
 }
@@ -40,9 +45,48 @@ main article {
   margin: 1rem 0;
   /* height: 25rem; */
   width: 30rem;
-  padding: 1rem 1rem;
-  background-color: rgb(246, 246, 247);
-  font-size: 1.4rem;
+  padding: 2rem 1rem;
+  background-color: rgb(209, 209, 209);
+  font-size: 1.2rem;
   letter-spacing: 0.3px;
   line-height: 25px;
+
+  box-shadow: 0px 6px 10px -7px black;
+}
+/* 
+footer starts here
+*/
+.footer {
+  background-color: rgb(92 220 185 / 85%);
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer section {
+  display: flex;
+  width: 80%;
+  max-width: 80rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.666);
+}
+.resources-used {
+  list-style: none;
+  display: flex;
+  gap: 0 15px;
+}
+.resource-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.666);
+}
+.resource-link:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 0.2s ease-in-out;
 }
